@@ -1,3 +1,5 @@
+#!/bin/bash
+
 count=5
 
 for file in *.jpg; do
