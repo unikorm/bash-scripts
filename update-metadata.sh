@@ -8,5 +8,6 @@ while read -r filename; do  # read the output of the previous command line by li
         --content-type "image/jpeg" \
         --cache-control "max-age=2592000" \
         --content-disposition "inline" \
+        --acl public-read \  # this is to make the file public
         --endpoint=https://fra1.digitaloceanspaces.com
 done
